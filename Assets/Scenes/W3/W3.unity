@@ -346,7 +346,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 243859026}
-  - component: {fileID: 243859027}
   m_Layer: 0
   m_Name: target
   m_TagString: Untagged
@@ -369,28 +368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!195 &243859027
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243859025}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1 &296543853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,13 +2191,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861218238}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10135547, y: -0.6998051, z: 0.10135547, w: 0.6998051}
-  m_LocalPosition: {x: 8.21, y: 2.8, z: 6.26}
+  m_LocalRotation: {x: 0.3074143, y: -0.5277914, z: 0.38062, w: 0.6943063}
+  m_LocalPosition: {x: 5.5, y: 11.5, z: 8.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 16.482, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.961, y: -63.03, z: 21.377}
 --- !u!114 &1861218242
 MonoBehaviour:
   m_ObjectHideFlags: 0
